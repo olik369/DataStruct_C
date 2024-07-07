@@ -34,7 +34,7 @@ int main(void)
 	};
 
 	aList[0].pNext = &aList[1];
-	aList[1].pNext = &aList[2];
+	aList[1].pNext = &aList[2]; 
 	aList[2].pNext = &aList[3];
 	aList[3].pNext = NULL;
 
