@@ -1,4 +1,4 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 #include <stdlib.h>
 
 void AddNewData(void);
@@ -26,13 +26,13 @@ int main(void)
 {
 	MY_MENU menu = 0;
 
-	//±âº»ÀûÀÎ ÀÌº¥Æ® ·çÇÁÀÇ ÇüÅÂ
+	//ê¸°ë³¸ì ì¸ ì´ë²¤íŠ¸ ë£¨í”„ì˜ í˜•íƒœ
 	while ((menu = PrintMenu()) != EXIT)
 	{
 		switch (menu)
 		{
 		case NEW:
-			AddNewData();	// Æ¯Á¤ ÀÌº¥Æ® - Æ¯Á¤ ÇÔ¼ö 1:1¸ÊÇÎÀÌ µÇ¸é ÀÌ¶§ÀÇ ÇÔ¼ö¸¦ ÀÌº¥Æ® ÇÚµé·¯¶ó°í ÇÔ
+			AddNewData();	// íŠ¹ì • ì´ë²¤íŠ¸ - íŠ¹ì • í•¨ìˆ˜ 1:1ë§µí•‘ì´ ë˜ë©´ ì´ë•Œì˜ í•¨ìˆ˜ë¥¼ ì´ë²¤íŠ¸ í•¸ë“¤ëŸ¬ë¼ê³  í•¨
 			break;
 		case SEARCH:
 			break;
